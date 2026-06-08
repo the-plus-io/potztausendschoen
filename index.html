@@ -1,0 +1,739 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Potztausendschön e.V. · Verein für Umweltbildung und Kulturförderung in Bremen</title>
+<meta name="description" content="Potztausendschön e.V. aus Bremen verbindet Umweltbildung und Kultur. Umwelttheater, Naturtheatertage und Erzähltheater für Kitas und Grundschulen." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,300..700,30..100,0..1&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body data-screen-label="Startseite">
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="bee" viewBox="0 0 100 80">
+      <g class="wing">
+        <ellipse cx="38" cy="28" rx="14" ry="9" fill="#FAF7F0" stroke="#1A1A1A" stroke-width="1.4" opacity="0.85"/>
+        <ellipse cx="58" cy="28" rx="14" ry="9" fill="#FAF7F0" stroke="#1A1A1A" stroke-width="1.4" opacity="0.85"/>
+      </g>
+      <ellipse cx="50" cy="48" rx="22" ry="15" fill="#E8B43A" stroke="#1A1A1A" stroke-width="1.6"/>
+      <path d="M40 35 Q42 50 38 60" stroke="#1A1A1A" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <path d="M52 33 Q54 50 50 62" stroke="#1A1A1A" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <circle cx="72" cy="46" r="8" fill="#1A1A1A"/>
+      <path d="M73 39 Q78 30 82 28" stroke="#1A1A1A" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+      <circle cx="83" cy="27" r="1.6" fill="#1A1A1A"/>
+      <path d="M28 48 L23 50" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round"/>
+      <path d="M5 60 Q20 30 35 50" stroke="#1A1A1A" stroke-width="1.2" fill="none" stroke-dasharray="2 3" stroke-linecap="round" opacity="0.6"/>
+    </symbol>
+    <symbol id="logo-mark" viewBox="0 0 38 42">
+      <polygon points="19,2 35,11 35,31 19,40 3,31 3,11" fill="#E8B43A" stroke="#1A1A1A" stroke-width="1.5"/>
+      <polygon points="19,9 28,14 28,28 19,33 10,28 10,14" fill="none" stroke="#1A1A1A" stroke-width="1.2"/>
+      <circle cx="19" cy="21" r="3" fill="#4A7C3A"/>
+    </symbol>
+  </defs>
+</svg>
+
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="brand">
+      <img class="brand-logo" src="assets/logo-biene.png" alt="Potztausendschön e.V. · Bremen" />
+    </a>
+    <button class="nav-burger" aria-label="Menü öffnen" id="burger"><span></span></button>
+    <div class="nav-links" id="navLinks">
+      <div class="nav-dropdown" id="progDropdown">
+        <button aria-haspopup="true" aria-expanded="false">
+          Programme <span class="caret">▾</span>
+        </button>
+        <div class="dropdown-menu">
+          <a href="#naturtheatertage"><span class="dd-title">Naturtheatertage</span><span class="dd-sub">Umwelttheater für Grundschulen</span></a>
+          <a href="#nashorntheater"><span class="dd-title">Ein Nashorn macht Theater</span><span class="dd-sub">Emotionen, Konfliktlösung &amp; Sprachförderung · Kita</span></a>
+          <a href="#theatergarten"><span class="dd-title">Theatergarten</span><span class="dd-sub">Spielort im LichtLuftBad</span></a>
+          <a href="#schmetterlinge"><span class="dd-title">Riesen, Raupen &amp; Schmetterlinge</span><span class="dd-sub">Umwelttheater für die Kita</span></a>
+          <a href="#bienentheater"><span class="dd-title">Bienentheater</span><span class="dd-sub">Umwelttheater für Grundschulen</span></a>
+          <a href="#geschichtenzeit"><span class="dd-title">Geschichtenzeit</span><span class="dd-sub">Erzähltheater für die Kita</span></a>
+        </div>
+      </div>
+      <a href="#verein">Verein</a>
+      <a href="#kontakt">Kontakt</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="top">
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        <h1 class="hero-name">
+          <span class="title-line">Potztausendschön <span class="ev">e.V.</span></span>
+          <span class="desc">Verein für Umweltbildung und Kulturförderung in Bremen.</span>
+        </h1>
+      </div>
+      <div>
+        <img class="hero-bee" src="assets/hero-biene.png" alt="Potztausendschön-Biene mit roter Clownsnase" />
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO SPONSORS ============ -->
+<section class="sponsors sponsors--hero" style="padding-top:18px">
+  <div class="container">
+    <div class="sp-label">Gefördert und unterstützt von</div>
+    <div class="sp-grid">
+      <div class="sp-logo"><span>Der Senator für Kultur, Bremen</span></div>
+      <div class="sp-logo"><span>Senatorin für Klimaschutz, Umwelt &amp; Mobilität</span></div>
+      <div class="sp-logo"><span>Kultur macht stark</span></div>
+      <div class="sp-logo"><span>Deutsche Postcode Lotterie</span></div>
+      <div class="sp-logo"><span>BINGO! Die Umweltlotterie</span></div>
+      <div class="sp-logo"><span>Hollweg-Stiftung</span></div>
+      <div class="sp-logo"><span>Zeisner Stiftung</span></div>
+      <div class="sp-logo"><span>Waldemar Koch Stiftung</span></div>
+      <div class="sp-logo"><span>WFB Wirtschaftsförderung Bremen</span></div>
+      <div class="sp-logo"><span>Sparkasse Bremen</span></div>
+      <div class="sp-logo"><span>Sparda-Bank Hannover</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WARUM WIR UNSERE ARBEIT MACHEN ============ -->
+<section id="warum">
+  <div class="container">
+    <div class="prog-head" style="max-width:46ch">
+      <div class="kicker">Potztausendschön</div>
+      <h2>Warum wir unsere Arbeit machen.</h2>
+    </div>
+    <div class="why-top">
+      <div class="prose">
+        <div class="notice"><strong>Text wird angefragt.</strong></div>
+      </div>
+      <figure class="why-fig why-portrait">
+        <img src="assets/warum-3.jpeg" alt="Zwei Mädchen erkunden den Wald mit einer Lupe" loading="lazy" />
+        <figcaption>Foto: Beate C. Koehler</figcaption>
+      </figure>
+    </div>
+    <div class="why-bottom">
+      <figure class="why-fig">
+        <img src="assets/warum-1.jpeg" alt="Kinder balancieren über Äste und Stämme im Grünen" loading="lazy" />
+        <figcaption>Foto: Beate C. Koehler</figcaption>
+      </figure>
+      <figure class="why-fig">
+        <img src="assets/warum-2.jpeg" alt="Kind schaut durch eine Bienen-Lupe ein anderes Kind an" loading="lazy" />
+        <figcaption>Foto: Beate C. Koehler</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ NATURTHEATERTAGE ============ -->
+<section id="naturtheatertage">
+  <div class="container">
+    <div class="prog-head">
+      <div class="kicker">Programm · Grundschule</div>
+      <h2>Naturtheatertage im LichtLuftBad</h2>
+      <div class="prog-sub">Umwelttheater für Grundschulen.</div>
+    </div>
+
+    <div class="prose" style="max-width:74ch;margin-bottom:8px">
+      <p>Im naturbelassenen Ambiente des LichtLuftBades laden wir zu phantastischen Erlebnistagen mit einer Aufführung des Bienentheaters und spannenden, lehrreichen umweltpädagogischen Spielangeboten.</p>
+      <p>Der Vormittag beginnt mit einer Aufführung des Bienentheaterstücks im Circuszelt. Danach haben die Kinder im Klassenverbund die Möglichkeit, an verschiedenen Workshop-Stationen die inhaltlichen Themen des Theaterstücks spielerisch zu vertiefen. Sie werden dabei von einem erfahrenen Team aus Umwelt- und Theaterpädagog:innen begleitet. Lehramtsstudent:innen der Bremer Uni unterstützen die Gruppen im Rahmen eines Praxisseminars von Dr. Angela Bolland.</p>
+    </div>
+
+    <div class="carousel">
+      <div class="carousel-viewport"><div class="carousel-track">
+        <div class="carousel-slide"><img class="cphoto" src="assets/bilder_bienentheater/naturtheatertage.jpg" alt="Naturtheatertage im LichtLuftBad" loading="lazy" /></div>
+        <div class="carousel-slide"><img class="cphoto" src="assets/bilder_bienentheater/bienentheater_bremen_1.jpg" alt="Bienentheater Bremen" loading="lazy" /></div>
+        <div class="carousel-slide"><img class="cphoto" src="assets/bilder_bienentheater/bienentheater_bremen_2.jpg" alt="Bienentheater Bremen" loading="lazy" /></div>
+        <div class="carousel-slide"><img class="cphoto" src="assets/bilder_bienentheater/bienentheater_bremen_3.jpg" alt="Bienentheater Bremen" loading="lazy" /></div>
+        <div class="carousel-slide"><img class="cphoto" src="assets/bilder_bienentheater/bienentheater_bremen_4.jpg" alt="Bienentheater Bremen" loading="lazy" /></div>
+      </div></div>
+      <button class="carousel-btn prev" aria-label="Zurück">‹</button>
+      <button class="carousel-btn next" aria-label="Weiter">›</button>
+      <div class="carousel-dots"></div>
+    </div>
+
+    <div class="video-row two">
+      <div class="video-lazy" style="width:100%;border-radius:20px;overflow:hidden;position:relative;background:#111;">
+          <img class="video-thumb" src="assets/thumbnails/Naturtheater.jpg" alt="" style="width:100%;display:block;cursor:pointer;aspect-ratio:16/9;object-fit:cover">
+          <button class="video-play-btn" aria-label="Video abspielen" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:none;border:none;cursor:pointer;padding:0;z-index:2"><svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" width="72" height="72"><circle cx="40" cy="40" r="40" fill="rgba(0,0,0,0.52)"/><polygon points="30,22 62,40 30,58" fill="white"/></svg></button>
+          <video preload="none" style="width:100%;display:none">
+            <source src="assets/videos/bienentheater/Naturtheater.mp4" type="video/mp4">
+          </video>
+        </div>
+      <div class="video-lazy" style="width:100%;border-radius:20px;overflow:hidden;position:relative;background:#111;">
+          <img class="video-thumb" src="assets/thumbnails/buten_un_binnen.jpg" alt="" style="width:100%;display:block;cursor:pointer;aspect-ratio:16/9;object-fit:cover">
+          <button class="video-play-btn" aria-label="Video abspielen" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:none;border:none;cursor:pointer;padding:0;z-index:2"><svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" width="72" height="72"><circle cx="40" cy="40" r="40" fill="rgba(0,0,0,0.52)"/><polygon points="30,22 62,40 30,58" fill="white"/></svg></button>
+          <video preload="none" style="width:100%;display:none">
+            <source src="assets/videos/bienentheater/buten_un_binnen.mp4" type="video/mp4">
+          </video>
+        </div>
+    </div>
+  </div>
+
+  <div class="container" style="margin-top:80px">
+    <div class="prog-head">
+      <div class="kicker">Das Team der Umwelt</div>
+      <h2 style="font-size:clamp(28px,3.4vw,42px)">Wer mit den Kindern an die Stationen geht.</h2>
+      <div class="prog-sub" style="font-style:normal;font-family:'Inter',sans-serif;font-size:17px">Ein Team aus Umwelt- und Theaterpädagog:innen, Wissenschaftler:innen und Studierenden. Karte antippen für das Foto.</div>
+    </div>
+    <div class="team-grid">
+      <div class="flip"><div class="flip-inner"><div class="flip-face flip-front"><span class="hint">↺</span><h4>Sven Hegeler</h4><div class="role">Clown und Schauspieler</div></div><div class="flip-face flip-back"><span class="ph-tag">[ Foto folgt ]</span><span class="bname">Sven Hegeler</span></div></div></div>
+      <div class="flip"><div class="flip-inner"><div class="flip-face flip-front"><span class="hint">↺</span><h4>Sabine Kochanke</h4><div class="role">Kulturwissenschaftlerin, Natur-, Wald- und Erlebnispädagogik</div></div><div class="flip-face flip-back"><span class="ph-tag">[ Foto folgt ]</span><span class="bname">Sabine Kochanke</span></div></div></div>
+      <div class="flip"><div class="flip-inner"><div class="flip-face flip-front"><span class="hint">↺</span><h4>Amelie Geyer</h4><div class="role">Umweltpädagogin, Natur- und Wildnispädagogin</div></div><div class="flip-face flip-back"><span class="ph-tag">[ Foto folgt ]</span><span class="bname">Amelie Geyer</span></div></div></div>
+      <div class="flip"><div class="flip-inner"><div class="flip-face flip-front"><span class="hint">↺</span><h4>Anna Kaltwasser</h4><div class="role">Sozialwissenschaftlerin, „Künste im Sozialen“</div></div><div class="flip-face flip-back"><span class="ph-tag">[ Foto folgt ]</span><span class="bname">Anna Kaltwasser</span></div></div></div>
+      <div class="flip"><div class="flip-inner"><div class="flip-face flip-front"><span class="hint">↺</span><h4>Doreen Görschel</h4><div class="role">Umweltwissenschaftlerin</div></div><div class="flip-face flip-back"><span class="ph-tag">[ Foto folgt ]</span><span class="bname">Doreen Görschel</span></div></div></div>
+      <div class="flip"><div class="flip-inner"><div class="flip-face flip-front"><span class="hint">↺</span><h4>Laura Egge</h4><div class="role">Wildnispädagogin</div></div><div class="flip-face flip-back"><span class="ph-tag">[ Foto folgt ]</span><span class="bname">Laura Egge</span></div></div></div>
+      <div class="flip"><div class="flip-inner"><div class="flip-face flip-front"><span class="hint">↺</span><h4>Tabea Becher</h4><div class="role">Studentin der Wirtschaftspsychologie</div></div><div class="flip-face flip-back"><span class="ph-tag">[ Foto folgt ]</span><span class="bname">Tabea Becher</span></div></div></div>
+      <div class="flip"><div class="flip-inner"><div class="flip-face flip-front"><span class="hint">↺</span><h4>Bernd Pohl</h4><div class="role">Regisseur mit Schwerpunkt Kindertheater</div></div><div class="flip-face flip-back"><span class="ph-tag">[ Foto folgt ]</span><span class="bname">Bernd Pohl</span></div></div></div>
+      <div class="flip"><div class="flip-inner"><div class="flip-face flip-front"><span class="hint">↺</span><h4>Timo Ottolin</h4><div class="role">Kulturmanager</div></div><div class="flip-face flip-back"><span class="ph-tag">[ Foto folgt ]</span><span class="bname">Timo Ottolin</span></div></div></div>
+      <div class="flip"><div class="flip-inner"><div class="flip-face flip-front"><span class="hint">↺</span><h4>Dr. Angela Bolland</h4><div class="role">Wissenschaftliche Begleitung, Universität Bremen</div></div><div class="flip-face flip-back"><span class="ph-tag">[ Foto folgt ]</span><span class="bname">Dr. Angela Bolland</span></div></div></div>
+    </div>
+
+    <div class="sponsors sponsors--prog" style="padding:56px 0 0">
+      <div class="sp-label" style="text-align:left">Förderer dieses Projekts</div>
+      <div class="sp-grid" style="justify-content:flex-start">
+        <div class="sp-logo"><span>Deutsche Postcode Lotterie</span></div>
+        <div class="sp-logo"><span>BINGO! Die Umweltlotterie</span></div>
+        <div class="sp-logo"><span>Hollweg-Stiftung</span></div>
+        <div class="sp-logo"><span>Sparda-Bank Hannover</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ============ NASHORNTHEATER ============ -->
+<section id="nashorntheater" style="background:var(--cream-warm)">
+  <div class="container">
+    <div class="prog-head">
+      <div class="kicker">Programm · Kita</div>
+      <h2>Ein Nashorn macht Theater</h2>
+      <div class="prog-sub">Ein Theaterprogramm zu Emotionen, Konfliktlösung und Sprachförderung für Kitakinder.</div>
+    </div>
+
+    <div class="prose" style="max-width:74ch;margin-bottom:8px">
+      <p>„Ein Nashorn macht Theater" ist ein Theaterstück für Kitakinder. Im Mittelpunkt stehen Emotionen, Konfliktlösung und Sprachförderung — spielerisch, einfühlsam und mitten aus der Erlebniswelt der Kinder.</p>
+      <div class="notice" style="margin-top:8px"><strong>Ausführlicher Text folgt.</strong></div>
+    </div>
+
+    <div class="carousel">
+      <div class="carousel-viewport"><div class="carousel-track">
+        <div class="carousel-slide"><img class="cphoto" src="assets/nashorn-buehne.jpeg" alt="Sven Hegeler im gestreiften Kostüm spielt im Circuszelt vor Publikum" loading="lazy" /></div>
+        <div class="carousel-slide"><img class="cphoto" src="assets/bilder_bienentheater/theater_oette.jpg" alt="Theater Oette" loading="lazy" /></div>
+        <div class="carousel-slide"><img class="cphoto" src="assets/bilder_bienentheater/bienentheater_bremen_5.jpg" alt="Bienentheater Bremen" loading="lazy" /></div>
+      </div></div>
+      <button class="carousel-btn prev" aria-label="Zurück">‹</button>
+      <button class="carousel-btn next" aria-label="Weiter">›</button>
+      <div class="carousel-dots"></div>
+    </div>
+
+    <div class="video-row two">
+      <div class="video-lazy" style="width:100%;border-radius:20px;overflow:hidden;position:relative;background:#111;">
+          <img class="video-thumb" src="assets/thumbnails/Nashorn_Video_Final_2023_Promo.jpg" alt="" style="width:100%;display:block;cursor:pointer;aspect-ratio:16/9;object-fit:cover">
+          <button class="video-play-btn" aria-label="Video abspielen" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:none;border:none;cursor:pointer;padding:0;z-index:2"><svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" width="72" height="72"><circle cx="40" cy="40" r="40" fill="rgba(0,0,0,0.52)"/><polygon points="30,22 62,40 30,58" fill="white"/></svg></button>
+          <video preload="none" style="width:100%;display:none">
+            <source src="assets/videos/bienentheater/Nashorn_Video_Final_2023_Promo.mp4" type="video/mp4">
+          </video>
+        </div>
+      <div class="video-lazy" style="width:100%;border-radius:20px;overflow:hidden;position:relative;background:#111;">
+          <img class="video-thumb" src="assets/thumbnails/Mein_Bienenbuch.jpg" alt="" style="width:100%;display:block;cursor:pointer;aspect-ratio:16/9;object-fit:cover">
+          <button class="video-play-btn" aria-label="Video abspielen" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:none;border:none;cursor:pointer;padding:0;z-index:2"><svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" width="72" height="72"><circle cx="40" cy="40" r="40" fill="rgba(0,0,0,0.52)"/><polygon points="30,22 62,40 30,58" fill="white"/></svg></button>
+          <video preload="none" style="width:100%;display:none">
+            <source src="assets/videos/bienentheater/Mein_Bienenbuch.mp4" type="video/mp4">
+          </video>
+        </div>
+    </div>
+
+    <div class="prog-head" style="margin-top:72px;margin-bottom:24px">
+      <div class="kicker">Das Team</div>
+      <h2 style="font-size:clamp(26px,3vw,38px)">Wer auf der Bühne steht.</h2>
+    </div>
+    <div class="team-grid">
+      <div class="flip"><div class="flip-inner"><div class="flip-face flip-front"><span class="hint">↺</span><h4>[ Name folgt ]</h4><div class="role">[ Rolle folgt ]</div></div><div class="flip-face flip-back"><span class="ph-tag">[ Foto folgt ]</span></div></div></div>
+      <div class="flip"><div class="flip-inner"><div class="flip-face flip-front"><span class="hint">↺</span><h4>[ Name folgt ]</h4><div class="role">[ Rolle folgt ]</div></div><div class="flip-face flip-back"><span class="ph-tag">[ Foto folgt ]</span></div></div></div>
+    </div>
+
+    <div class="sponsors sponsors--prog" style="padding:56px 0 0">
+      <div class="sp-label" style="text-align:left">Förderer dieses Projekts</div>
+      <div class="sp-grid" style="justify-content:flex-start">
+        <div class="sp-logo"><span>Zeisner Stiftung</span></div>
+        <div class="sp-logo"><span>Waldemar Koch Stiftung</span></div>
+        <div class="sp-logo"><span>Hollweg-Stiftung</span></div>
+        <div class="sp-logo"><span>Sparkasse Bremen</span></div>
+        <div class="sp-logo"><span>Der Senator für Kultur, Bremen</span></div>
+        <div class="sp-logo"><span>Kultur macht stark</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ============ THEATERGARTEN ============ -->
+<section id="theatergarten">
+  <div class="container">
+    <div class="prog-head">
+      <div class="kicker">Programm · Spielort</div>
+      <h2>Theatergarten im LichtLuftBad</h2>
+      <div class="prog-sub">Ein neuer Spielort für Kinder- und Erwachsenentheater im naturbelassenen Ambiente des LiLuBa, in Kooperation mit Mensch, Puppe!.</div>
+    </div>
+
+    <div class="prose" style="max-width:74ch;margin-bottom:8px">
+      <div class="notice" style="margin-bottom:24px"><strong>Neuer Text folgt von Sven.</strong></div>
+      <p>Im wunderschönen, naturbelassenen Ambiente des LichtLuftBades ist im Jahr 2025 in Kooperation mit dem Bremer Figurentheater Mensch, Puppe! ein neuer Spielort für umweltbezogenes und qualitativ hochwertiges Theater für Kinder und Erwachsene entstanden.</p>
+    </div>
+
+    <div class="carousel">
+      <div class="carousel-viewport"><div class="carousel-track">
+        <div class="carousel-slide"><img class="cphoto" src="assets/bilder_bienentheater/bienengarten.jpg" alt="Bienengarten" loading="lazy" /></div>
+        <div class="carousel-slide"><img class="cphoto" src="assets/bilder_bienentheater/bienenpalast_1.jpg" alt="Bienenpalast" loading="lazy" /></div>
+        <div class="carousel-slide"><img class="cphoto" src="assets/bilder_bienentheater/bienenpalast_2.jpg" alt="Bienenpalast" loading="lazy" /></div>
+      </div></div>
+      <button class="carousel-btn prev" aria-label="Zurück">‹</button>
+      <button class="carousel-btn next" aria-label="Weiter">›</button>
+      <div class="carousel-dots"></div>
+    </div>
+
+    <div class="video-row">
+      <div class="video-lazy" style="width:100%;border-radius:20px;overflow:hidden;position:relative;background:#111;">
+          <img class="video-thumb" src="assets/thumbnails/Kinder_lernen_die_Natur_kennen.jpg" alt="" style="width:100%;display:block;cursor:pointer;aspect-ratio:16/9;object-fit:cover">
+          <button class="video-play-btn" aria-label="Video abspielen" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:none;border:none;cursor:pointer;padding:0;z-index:2"><svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" width="72" height="72"><circle cx="40" cy="40" r="40" fill="rgba(0,0,0,0.52)"/><polygon points="30,22 62,40 30,58" fill="white"/></svg></button>
+          <video preload="none" style="width:100%;display:none">
+            <source src="assets/videos/bienentheater/Kinder_lernen_die_Natur_kennen.mp4" type="video/mp4">
+          </video>
+        </div>
+    </div>
+
+    <div style="background:var(--cream-warm);border:1px solid var(--line);border-radius:24px;padding:40px;text-align:center;margin-top:56px">
+      <div class="kicker" style="justify-content:center;margin-bottom:14px">Spieltermine</div>
+      <h3 style="font-size:clamp(24px,2.6vw,34px);margin-bottom:12px">Aktuelle Termine bei <em>Mensch, Puppe!</em></h3>
+      <p style="font-size:16px;max-width:46ch;margin:0 auto 24px">Die laufenden Spieltermine im Theatergarten für die Saison 2026 finden Sie direkt auf der Seite unseres Kooperationspartners.</p>
+      <a href="https://menschpuppe.de/programm/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Zu den Spielterminen <span class="arr">↗</span></a>
+    </div>
+
+    <div class="sponsors sponsors--prog" style="padding:56px 0 0">
+      <div class="sp-label" style="text-align:left">Förderer dieses Projekts</div>
+      <div class="sp-grid" style="justify-content:flex-start">
+        <div class="sp-logo"><span>Mensch, Puppe!</span></div>
+        <div class="sp-logo"><span>[ Logo folgt ]</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ============ RIESEN, RAUPEN & SCHMETTERLINGE ============ -->
+<section id="schmetterlinge" style="background:var(--cream-warm)">
+  <div class="container">
+    <div class="prog-head" style="max-width:54ch">
+      <div class="kicker">Programm · Kita</div>
+      <h2>Die Geschichte von Riesen, Raupen und mutigen Schmetterlingen</h2>
+      <div class="prog-sub">Umwelttheaterstück für Kitakinder.</div>
+    </div>
+
+    <div class="prose" style="max-width:74ch;margin-bottom:8px">
+      <p>Thematisch geht es um die Bedrohung der natürlichen Kreisläufe in der Natur durch uns Menschen. Anhand der Geschichte einer Raupe, die zum Schmetterling wird, wird das Thema kindgerecht bearbeitet und gemeinsam mit den Kindern nach einer Lösung im Sinne des Umweltschutzes geforscht.</p>
+      <p>Neben dem Theatererlebnis im kleinen Circuszelt ist ein theatral inszenierter Rundweg durch das naturbelassene Ambiente des LichtLuftBades für die Kinder ein besonderes (Natur-)Erlebnis, das sie behutsam in die Geschichte einführt.</p>
+      <p>Mit Elementen aus Figurentheater, Musik und Storytelling entsteht ein mitreißendes und zugleich informatives Theaterstück, welches den Kindern die faszinierende Welt der Schmetterlinge und Insekten nahebringt.</p>
+      <p>In Kooperation mit der Figurenspielerin Johanna Pätzold und der Schauspielerin Julia Klein.</p>
+    </div>
+
+    <div class="carousel">
+      <div class="carousel-viewport"><div class="carousel-track">
+        <div class="carousel-slide"><img class="cphoto" src="assets/bilder_bienentheater/bienentheater_bremen_6.jpg" alt="Bienentheater Bremen" loading="lazy" /></div>
+        <div class="carousel-slide"><img class="cphoto" src="assets/bilder_bienentheater/bienentheater_bremen_8.jpg" alt="Bienentheater Bremen" loading="lazy" /></div>
+        <div class="carousel-slide"><img class="cphoto" src="assets/bilder_bienentheater/bienentheater_bremen_9.jpg" alt="Bienentheater Bremen" loading="lazy" /></div>
+      </div></div>
+      <button class="carousel-btn prev" aria-label="Zurück">‹</button>
+      <button class="carousel-btn next" aria-label="Weiter">›</button>
+      <div class="carousel-dots"></div>
+    </div>
+
+    <div class="video-row">
+      <div class="video-lazy" style="width:100%;border-radius:20px;overflow:hidden;position:relative;background:#111;">
+          <img class="video-thumb" src="assets/thumbnails/Naturtheater.jpg" alt="" style="width:100%;display:block;cursor:pointer;aspect-ratio:16/9;object-fit:cover">
+          <button class="video-play-btn" aria-label="Video abspielen" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:none;border:none;cursor:pointer;padding:0;z-index:2"><svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" width="72" height="72"><circle cx="40" cy="40" r="40" fill="rgba(0,0,0,0.52)"/><polygon points="30,22 62,40 30,58" fill="white"/></svg></button>
+          <video preload="none" style="width:100%;display:none">
+            <source src="assets/videos/bienentheater/Naturtheater.mp4" type="video/mp4">
+          </video>
+        </div>
+    </div>
+
+    <div class="sponsors sponsors--prog" style="padding:56px 0 0">
+      <div class="sp-label" style="text-align:left">Förderer dieses Projekts</div>
+      <div class="sp-grid" style="justify-content:flex-start">
+        <div class="sp-logo"><span>Hollweg-Stiftung</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ============ BIENENTHEATER ============ -->
+<section id="bienentheater">
+  <div class="container">
+    <div class="prog-head">
+      <div class="kicker">Programm · Grundschule</div>
+      <h2>Bienentheater für die Grundschule</h2>
+      <div class="prog-sub">Umwelttheater für Grundschulen.</div>
+    </div>
+
+    <div class="split-2" style="grid-template-columns:1.1fr .9fr;gap:56px;margin-bottom:8px">
+      <div class="prose">
+        <p>In einer poetisch-phantasievollen und zugleich lehrreichen Geschichte ist es dem Schauspieler Sven Hegeler gelungen, die faszinierende und bedrohte Lebensweise der Bienen und Insekten in kindgerechter Form lebendig werden zu lassen.</p>
+        <p>Mit den Elementen Erzähltheater, Musik und Zauberei wird die Geschichte eines Circusclowns erzählt, der seine Liebe zum Imkern und den Bienen entdeckt. Die Bedrohung der Natur wird durch einen giftspritzenden Arbeiter dargestellt. Gemeinsam mit den Kindern werden im Theaterspiel verschiedene Lösungsmöglichkeiten erkundet und spielerisch umgesetzt.</p>
+      </div>
+      <div class="fact-box">
+        <h4>Steckbrief</h4>
+        <dl>
+          <dt>Spielzeit</dt><dd>55 Minuten</dd>
+          <dt>Zielgruppe</dt><dd>Klassen 1 bis 4, bis zu vier Schulklassen gleichzeitig</dd>
+          <dt>Sitzen</dt><dd>auf Stühlen oder auf dem Fußboden</dd>
+          <dt>Raum</dt><dd>ein großer Raum mit Freifläche von 4 × 3 m</dd>
+          <dt>Aufbau</dt><dd>2 Stunden vor Beginn</dd>
+          <dt>Technik</dt><dd>Alle Requisiten, Licht- und Tonanlage bringen wir mit</dd>
+          <dt>Format</dt><dd>Mobiles Theater, kommt in die Grundschule</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="carousel">
+      <div class="carousel-viewport"><div class="carousel-track">
+        <div class="carousel-slide"><img class="cphoto" src="assets/bilder_bienentheater/imker.groß.JPEG" alt="Sven Hegeler als Imker" loading="lazy" /></div>
+        <div class="carousel-slide"><img class="cphoto" src="assets/bilder_bienentheater/lastrad_co2_neutral.jpg" alt="Lastenrad CO₂-neutral" loading="lazy" /></div>
+        <div class="carousel-slide"><img class="cphoto" src="assets/bilder_bienentheater/bienentheater_bremen_10.jpg" alt="Bienentheater Bremen" loading="lazy" /></div>
+        <div class="carousel-slide"><img class="cphoto" src="assets/bilder_bienentheater/bienentheater_bremen_11.jpg" alt="Bienentheater Bremen" loading="lazy" /></div>
+      </div></div>
+      <button class="carousel-btn prev" aria-label="Zurück">‹</button>
+      <button class="carousel-btn next" aria-label="Weiter">›</button>
+      <div class="carousel-dots"></div>
+    </div>
+
+    <div class="video-row two">
+      <div class="video-lazy" style="width:100%;border-radius:20px;overflow:hidden;position:relative;background:#111;">
+          <img class="video-thumb" src="assets/thumbnails/Naturtheater.jpg" alt="" style="width:100%;display:block;cursor:pointer;aspect-ratio:16/9;object-fit:cover">
+          <button class="video-play-btn" aria-label="Video abspielen" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:none;border:none;cursor:pointer;padding:0;z-index:2"><svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" width="72" height="72"><circle cx="40" cy="40" r="40" fill="rgba(0,0,0,0.52)"/><polygon points="30,22 62,40 30,58" fill="white"/></svg></button>
+          <video preload="none" style="width:100%;display:none">
+            <source src="assets/videos/bienentheater/Naturtheater.mp4" type="video/mp4">
+          </video>
+        </div>
+      <div class="video-lazy" style="width:100%;border-radius:20px;overflow:hidden;position:relative;background:#111;">
+          <img class="video-thumb" src="assets/thumbnails/Mein_Bienenbuch.jpg" alt="" style="width:100%;display:block;cursor:pointer;aspect-ratio:16/9;object-fit:cover">
+          <button class="video-play-btn" aria-label="Video abspielen" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:none;border:none;cursor:pointer;padding:0;z-index:2"><svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" width="72" height="72"><circle cx="40" cy="40" r="40" fill="rgba(0,0,0,0.52)"/><polygon points="30,22 62,40 30,58" fill="white"/></svg></button>
+          <video preload="none" style="width:100%;display:none">
+            <source src="assets/videos/bienentheater/Mein_Bienenbuch.mp4" type="video/mp4">
+          </video>
+        </div>
+    </div>
+
+    <!-- Bienenmappen (jetzt hier statt eigener Seite) -->
+    <div style="margin-top:72px">
+      <div class="prog-head">
+        <div class="kicker">Begleitmaterial</div>
+        <h2 style="font-size:clamp(28px,3.4vw,42px)">Bienen-Mappen herunterladen.</h2>
+        <div class="prog-sub" style="font-style:normal;font-family:'Inter',sans-serif;font-size:17px">Begleitend zum Bienentheater stellen wir Lehrkräften und Erzieher:innen kostenlose Arbeitsmappen zur Verfügung — mit Spielanregungen, Sachinformationen und Material für die Vor- und Nachbereitung.</div>
+      </div>
+      <div class="grid-3">
+        <a href="/downloads/Bienenmappe_Kita.pdf" class="card" style="text-decoration:none">
+          <div style="display:flex;justify-content:space-between;align-items:start"><span class="tag-chip honey">Mappe 01</span><span style="font-size:24px;color:var(--terracotta);line-height:1">↓</span></div>
+          <div style="background:var(--cream-warm);border-radius:14px;padding:24px 20px;text-align:center;font-family:'Fraunces',serif;font-style:italic;color:var(--ink-soft);font-size:14px"><div style="font-size:34px;color:var(--honey-deep);line-height:1;margin-bottom:6px">PDF</div>Kostenlos</div>
+          <h3>Bienenmappe Kita</h3>
+          <p>Für Vorschulgruppen, mit Spielanregungen und Sachmaterial</p>
+          <span class="card-link" style="color:var(--terracotta-deep)">PDF herunterladen <span>↓</span></span>
+        </a>
+        <a href="/downloads/Bienenmappe-1-2-Klasse.pdf" class="card" style="text-decoration:none">
+          <div style="display:flex;justify-content:space-between;align-items:start"><span class="tag-chip honey">Mappe 02</span><span style="font-size:24px;color:var(--terracotta);line-height:1">↓</span></div>
+          <div style="background:var(--cream-warm);border-radius:14px;padding:24px 20px;text-align:center;font-family:'Fraunces',serif;font-style:italic;color:var(--ink-soft);font-size:14px"><div style="font-size:34px;color:var(--honey-deep);line-height:1;margin-bottom:6px">PDF</div>Kostenlos</div>
+          <h3>Bienenmappe 1. &amp; 2. Klasse</h3>
+          <p>Für die Eingangsstufe, mit Material zur Vor- und Nachbereitung</p>
+          <span class="card-link" style="color:var(--terracotta-deep)">PDF herunterladen <span>↓</span></span>
+        </a>
+        <a href="/downloads/Bienenmappe-3-4-Klasse.pdf" class="card" style="text-decoration:none">
+          <div style="display:flex;justify-content:space-between;align-items:start"><span class="tag-chip honey">Mappe 03</span><span style="font-size:24px;color:var(--terracotta);line-height:1">↓</span></div>
+          <div style="background:var(--cream-warm);border-radius:14px;padding:24px 20px;text-align:center;font-family:'Fraunces',serif;font-style:italic;color:var(--ink-soft);font-size:14px"><div style="font-size:34px;color:var(--honey-deep);line-height:1;margin-bottom:6px">PDF</div>Kostenlos</div>
+          <h3>Bienenmappe 3. &amp; 4. Klasse</h3>
+          <p>Für die Klassen 3 und 4, mit vertiefenden Sachinformationen</p>
+          <span class="card-link" style="color:var(--terracotta-deep)">PDF herunterladen <span>↓</span></span>
+        </a>
+      </div>
+    </div>
+
+    <div class="sponsors sponsors--prog" style="padding:56px 0 0">
+      <div class="sp-label" style="text-align:left">Förderer dieses Projekts</div>
+      <div class="sp-grid" style="justify-content:flex-start">
+        <div class="sp-logo"><span>BINGO! Die Umweltlotterie</span></div>
+        <div class="sp-logo"><span>Senatorin für Klimaschutz, Bremen</span></div>
+        <div class="sp-logo"><span>[ Logo folgt ]</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ============ GESCHICHTENZEIT ============ -->
+<section id="geschichtenzeit" style="background:var(--cream-warm)">
+  <div class="container">
+    <div class="prog-head">
+      <div class="kicker">Programm · Kita</div>
+      <h2>Geschichtenzeit</h2>
+      <div class="prog-sub">Erzähltheater für die Kita. Sprachförderung durch Geschichten, mit Kamishibai-Bildkarten.</div>
+    </div>
+
+    <div class="split-2" style="grid-template-columns:1.1fr .9fr;gap:56px;margin-bottom:8px">
+      <div class="prose">
+        <p>Ein Programm zur Sprachförderung für die Abschlussgruppen der Kitas.</p>
+        <p>In diesem Theaterprogramm dient der Vortrag und die improvisierten Szenen des Schauspielers als Angebot an die Kinder, selber sprachaktiv in die Geschichten einzusteigen. Die Rahmenhandlung der Kamishibai-Geschichten ist die Einladung für die Kinder, aktiv zu werden. Zuhören und freies Sprechen vor der Gruppe können hier mit der einfühlsamen Teilnahme des Schauspielers erfahren und von den Kindern umgesetzt werden.</p>
+      </div>
+      <div class="fact-box">
+        <h4>Steckbrief</h4>
+        <dl>
+          <dt>Spieldauer</dt><dd>ca. 35 Minuten</dd>
+          <dt>Alter</dt><dd>5 bis 6 Jahre (Vorschulkinder)</dd>
+          <dt>Gruppe</dt><dd>bis ca. 10 Kinder</dd>
+          <dt>Raum</dt><dd>sollte zu verdunkeln sein</dd>
+          <dt>Umfang</dt><dd>4 Termine in einem Monat</dd>
+          <dt>Pro Termin</dt><dd>2× pro Vormittag für verschiedene Vorschulgruppen möglich</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="carousel">
+      <div class="carousel-viewport"><div class="carousel-track">
+        <div class="carousel-slide"><img class="cphoto" src="assets/bilder_bienentheater/geschichtenzeit.jpg" alt="Geschichtenzeit Kamishibai" loading="lazy" /></div>
+        <div class="carousel-slide"><img class="cphoto" src="assets/bilder_bienentheater/vorschaubild_erzaehltheater.jpg" alt="Erzähltheater" loading="lazy" /></div>
+        <div class="carousel-slide"><img class="cphoto" src="assets/bilder_bienentheater/bienentheater_bremen_12.jpg" alt="Bienentheater Bremen" loading="lazy" /></div>
+      </div></div>
+      <button class="carousel-btn prev" aria-label="Zurück">‹</button>
+      <button class="carousel-btn next" aria-label="Weiter">›</button>
+      <div class="carousel-dots"></div>
+    </div>
+
+    <div class="video-row">
+      <div class="video-lazy" style="width:100%;border-radius:20px;overflow:hidden;position:relative;background:#111;">
+          <img class="video-thumb" src="assets/thumbnails/Geschichtenzeit.jpg" alt="" style="width:100%;display:block;cursor:pointer;aspect-ratio:16/9;object-fit:cover">
+          <button class="video-play-btn" aria-label="Video abspielen" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:none;border:none;cursor:pointer;padding:0;z-index:2"><svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" width="72" height="72"><circle cx="40" cy="40" r="40" fill="rgba(0,0,0,0.52)"/><polygon points="30,22 62,40 30,58" fill="white"/></svg></button>
+          <video preload="none" style="width:100%;display:none">
+            <source src="assets/videos/erzaehltheater/Geschichtenzeit.mp4" type="video/mp4">
+          </video>
+        </div>
+    </div>
+
+    <div class="sponsors sponsors--prog" style="padding:56px 0 0">
+      <div class="sp-label" style="text-align:left">Förderer dieses Projekts</div>
+      <div class="sp-grid" style="justify-content:flex-start">
+        <div class="sp-logo"><span>[ Logo folgt ]</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ============ VEREIN ============ -->
+<section id="verein">
+  <div class="container">
+    <div class="prog-head" style="max-width:60ch">
+      <div class="kicker">Der Verein</div>
+      <h2>Wer wir sind.</h2>
+      <div class="prog-sub" style="font-style:normal;font-family:'Inter',sans-serif;font-size:18px;line-height:1.6">Potztausendschön, Verein für Umweltbildung und Kulturförderung in Bremen e.V., ist ein gemeinnützig anerkannter Verein. Unser Zweck ist die Förderung von Umweltbildung, Kunst und Kultur. Wir sind selbstlos tätig und verfolgen nicht in erster Linie eigenwirtschaftliche Zwecke.</div>
+    </div>
+
+    <div class="prog-head" style="margin-top:48px;margin-bottom:24px">
+      <div class="kicker">Der Vorstand</div>
+      <h2 style="font-size:clamp(26px,3vw,38px)">Vier Menschen tragen den Verein.</h2>
+      <div class="prog-sub" style="font-style:normal;font-family:'Inter',sans-serif;font-size:16px">Karte antippen für das Foto.</div>
+    </div>
+    <div class="team-grid">
+      <div class="flip"><div class="flip-inner"><div class="flip-face flip-front"><span class="hint">↺</span><h4>Sven Hegeler</h4><div class="role">Vorsitzender · Bremen</div></div><div class="flip-face flip-back"><img src="assets/bilder_bienentheater/sven_hegeler.jpg" alt="Sven Hegeler" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></div></div></div>
+      <div class="flip"><div class="flip-inner"><div class="flip-face flip-front"><span class="hint">↺</span><h4>Walter Kaemena</h4><div class="role">2. Vorsitzender · Worpswede</div></div><div class="flip-face flip-back"><img src="assets/bilder_bienentheater/walter_kaemena.jpg" alt="Walter Kaemena" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></div></div></div>
+      <div class="flip"><div class="flip-inner"><div class="flip-face flip-front"><span class="hint">↺</span><h4>Melissa Chelmis</h4><div class="role">Schriftführerin · Bremen</div></div><div class="flip-face flip-back"><img src="assets/bilder_bienentheater/melissa_chelmis.jpg" alt="Melissa Chelmis" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></div></div></div>
+      <div class="flip"><div class="flip-inner"><div class="flip-face flip-front"><span class="hint">↺</span><h4>Silke Manicki</h4><div class="role">Rechnungsführerin · Bremen</div></div><div class="flip-face flip-back"><img src="assets/bilder_bienentheater/silke_manicki.jpg" alt="Silke Manicki" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></div></div></div>
+    </div>
+  </div>
+
+  <div class="container" style="margin-top:80px">
+    <div class="prog-head">
+      <div class="kicker">Über den Gründer</div>
+      <h2 style="font-size:clamp(28px,3.4vw,44px)"><em>Sven Hegeler</em> — Schauspieler, Clown und Imker.</h2>
+    </div>
+    <div class="split-2" style="grid-template-columns:.8fr 1.2fr;gap:56px">
+      <img src="assets/sven-hegeler.jpeg" alt="Sven Hegeler mit Bienen-Handpuppe auf der Bühne" style="width:100%;height:auto;border-radius:20px;border:1px solid var(--line);display:block" />
+      <div class="prose">
+        <p>Der Schauspieler, Clown und Artist Sven Hegeler wurde 1961 in São Paulo geboren. Seine Ausbildung absolvierte er an der Artistenschule in Berlin. Er wirkte in verschiedenen Circus- und Varieté-Inszenierungen mit, u.a. Circus Roncalli, Traumtheater Salome, Wintergartenvarieté Berlin.</p>
+        <p>Bis 1990 verschiedene Engagements in Deutschland und Europa (Circus Roncalli, Traumtheater Salome, Expo Sevilla, Festas de Lisboa, Kultursommer Copenhagen). Ab 1995 Zusammenarbeit mit dem Kölner Spielecircus und Entwicklung der Kindermitmachcircus-Idee. Ab dem Jahr 2000 eigene Kindertheater-Produktionen, ausgezeichnet als „Kindertheater des Monats“ in Nordrhein-Westfalen.</p>
+        <p>2019 gründete er Potztausendschön e.V., dessen Geschäftsführer er seitdem ist.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" style="margin-top:80px">
+    <div class="prog-head">
+      <div class="kicker">Freunde, Mitwirkende, Partner</div>
+      <h2 style="font-size:clamp(26px,3vw,38px)">Wir machen das nicht allein.</h2>
+      <div class="prog-sub" style="font-style:normal;font-family:'Inter',sans-serif;font-size:16px">Menschen und Initiativen, die das Theater, die Mappen und die Kooperationen erst möglich machen.</div>
+    </div>
+    <div class="grid-3">
+      <div class="card" style="gap:6px"><h4 style="font-family:'Fraunces',serif;font-size:20px;margin:0">Hans König</h4><p style="margin:0">Regie und Buch</p><a href="https://hanskoenig.net" target="_blank" rel="noopener noreferrer" class="card-link">hanskoenig.net ↗</a></div>
+      <div class="card" style="gap:6px"><h4 style="font-family:'Fraunces',serif;font-size:20px;margin:0">Anna-Charlotte Lörzer</h4><p style="margin:0">Recherche und Stückentwicklung</p><a href="https://lottestheaterwerkstatt.com" target="_blank" rel="noopener noreferrer" class="card-link">lottestheaterwerkstatt.com ↗</a></div>
+      <div class="card" style="gap:6px"><h4 style="font-family:'Fraunces',serif;font-size:20px;margin:0">Beate Koehler</h4><p style="margin:0">Fotos</p><a href="https://beate-koehler.name" target="_blank" rel="noopener noreferrer" class="card-link">beate-koehler.name ↗</a></div>
+      <div class="card" style="gap:6px"><h4 style="font-family:'Fraunces',serif;font-size:20px;margin:0">Lilith Glaser</h4><p style="margin:0">Illustration Kamishibai-Bildkarten</p></div>
+      <div class="card" style="gap:6px"><h4 style="font-family:'Fraunces',serif;font-size:20px;margin:0">Melissa Chelmis</h4><p style="margin:0">Bau &amp; Illustration</p><a href="https://chelmis.de" target="_blank" rel="noopener noreferrer" class="card-link">chelmis.de ↗</a></div>
+      <div class="card" style="gap:6px"><h4 style="font-family:'Fraunces',serif;font-size:20px;margin:0">Boris Holscher</h4><p style="margin:0">Requisiten</p><a href="https://ingenieur-hb.de" target="_blank" rel="noopener noreferrer" class="card-link">ingenieur-hb.de ↗</a></div>
+      <div class="card" style="gap:6px"><h4 style="font-family:'Fraunces',serif;font-size:20px;margin:0">Birgit Pardun</h4><p style="margin:0">Layout Logo</p><a href="https://orangsch.de" target="_blank" rel="noopener noreferrer" class="card-link">orangsch.de ↗</a></div>
+      <div class="card" style="gap:6px"><h4 style="font-family:'Fraunces',serif;font-size:20px;margin:0">Steam Punk Station</h4><p style="margin:0">Requisitenbau</p><a href="https://steampunk-station.de" target="_blank" rel="noopener noreferrer" class="card-link">steampunk-station.de ↗</a></div>
+      <div class="card" style="gap:6px"><h4 style="font-family:'Fraunces',serif;font-size:20px;margin:0">Bienen machen Schule</h4><p style="margin:0">Kooperation Umweltbildung</p><a href="https://bienen-schule.de" target="_blank" rel="noopener noreferrer" class="card-link">bienen-schule.de ↗</a></div>
+      <div class="card" style="gap:6px"><h4 style="font-family:'Fraunces',serif;font-size:20px;margin:0">Umweltbildung Bremen</h4><p style="margin:0">Bildungspartner</p><a href="https://umweltbildung-bremen.de" target="_blank" rel="noopener noreferrer" class="card-link">umweltbildung-bremen.de ↗</a></div>
+      <div class="card" style="gap:6px"><h4 style="font-family:'Fraunces',serif;font-size:20px;margin:0">Freie Gemeinschaftsschule Bremen</h4><p style="margin:0">Probenraum</p><a href="https://fgs-bremen.de" target="_blank" rel="noopener noreferrer" class="card-link">fgs-bremen.de ↗</a></div>
+    </div>
+  </div>
+</section>
+<!-- ============ KONTAKT ============ -->
+<section id="kontakt" style="background:var(--cream-warm)">
+  <div class="container">
+    <div class="contact-rows">
+      <a class="contact-mail" href="mailto:hallo@potztausendschoen.de">
+        <div class="for">für Kontakt</div>
+        <div class="addr">hallo@potztausendschoen.de</div>
+      </a>
+      <a class="contact-mail" href="mailto:koordination@potztausendschoen.de">
+        <div class="for">für Terminanfragen</div>
+        <div class="addr">koordination@potztausendschoen.de</div>
+      </a>
+    </div>
+    <div class="contact-meta">
+      Potztausendschön e.V. · Heidelberger Straße 15 · 28203 Bremen<br/>
+      <a href="tel:+4901716033530">0171 60 33 530</a>
+    </div>
+  </div>
+</section>
+<!-- ============ ALLE SPONSOR:INNEN (ganz unten) ============ -->
+<section class="sponsors" style="padding:72px 0">
+  <div class="container">
+    <div class="sp-label">Gefördert und unterstützt von</div>
+    <div class="sp-grid">
+      <div class="sp-logo"><span>Der Senator für Kultur, Bremen</span></div>
+      <div class="sp-logo"><span>Senatorin für Klimaschutz, Umwelt &amp; Mobilität</span></div>
+      <div class="sp-logo"><span>Kultur macht stark</span></div>
+      <div class="sp-logo"><span>Deutsche Postcode Lotterie</span></div>
+      <div class="sp-logo"><span>BINGO! Die Umweltlotterie</span></div>
+      <div class="sp-logo"><span>Hollweg-Stiftung</span></div>
+      <div class="sp-logo"><span>Zeisner Stiftung</span></div>
+      <div class="sp-logo"><span>Waldemar Koch Stiftung</span></div>
+      <div class="sp-logo"><span>WFB Wirtschaftsförderung Bremen</span></div>
+      <div class="sp-logo"><span>Sparkasse Bremen</span></div>
+      <div class="sp-logo"><span>Sparda-Bank Hannover</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <svg class="footer-bee"><use href="#bee"/></svg>
+  <div class="container">
+    <div class="footer-grid" style="grid-template-columns:1fr 1fr;align-items:start;max-width:860px;margin:0 auto 60px;gap:56px">
+      <div>
+        <address style="font-family:'Fraunces',serif;font-style:normal;font-size:19px;line-height:1.5;color:var(--cream)">
+          Potztausendschön e.V.<br/>
+          Heidelberger Straße 15<br/>
+          28203 Bremen
+        </address>
+        <p style="margin-top:18px;font-size:15px;color:rgba(250,247,240,0.78)">
+          <a href="mailto:hallo@potztausendschoen.de" style="color:var(--cream);text-decoration:none;border-bottom:1px solid rgba(250,247,240,0.25)">hallo@potztausendschoen.de</a> <span style="color:rgba(250,247,240,0.5)">(für Kontakt)</span><br/>
+          <a href="mailto:koordination@potztausendschoen.de" style="color:var(--cream);text-decoration:none;border-bottom:1px solid rgba(250,247,240,0.25)">koordination@potztausendschoen.de</a> <span style="color:rgba(250,247,240,0.5)">(für Terminanfragen)</span><br/>
+          <a href="tel:+4901716033530" style="color:var(--cream);text-decoration:none;border-bottom:1px solid rgba(250,247,240,0.25)">0171 60 33 530</a>
+        </p>
+        <div class="footer-links" style="flex-direction:row;gap:20px;margin-top:18px">
+          <a href="impressum.html">Impressum</a>
+          <a href="datenschutz.html">Datenschutz</a>
+        </div>
+      </div>
+      <div>
+        <div class="sponsors sponsors--footer" style="padding:0">
+          <div class="sp-label" style="text-align:left;color:rgba(250,247,240,0.5);margin-bottom:16px">Unsere Förderer</div>
+          <div class="sp-grid" style="justify-content:flex-start">
+            <div class="sp-logo"><span>Senator für Kultur</span></div>
+            <div class="sp-logo"><span>Klimaschutz Bremen</span></div>
+            <div class="sp-logo"><span>Kultur macht stark</span></div>
+            <div class="sp-logo"><span>Postcode Lotterie</span></div>
+            <div class="sp-logo"><span>BINGO!</span></div>
+            <div class="sp-logo"><span>Hollweg</span></div>
+            <div class="sp-logo"><span>Zeisner Stiftung</span></div>
+            <div class="sp-logo"><span>Waldemar Koch Stiftung</span></div>
+            <div class="sp-logo"><span>WFB Bremen</span></div>
+            <div class="sp-logo"><span>Sparkasse Bremen</span></div>
+            <div class="sp-logo"><span>Sparda-Bank Hannover</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Potztausendschön e.V.</span>
+      <span>Vereinsregister Bremen · gemeinnützig anerkannt</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const nav = document.getElementById('nav');
+  const onScroll = () => nav.classList.toggle('scrolled', window.scrollY > 8);
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+  const burger = document.getElementById('burger');
+  const navLinks = document.getElementById('navLinks');
+  burger && burger.addEventListener('click', () => navLinks.classList.toggle('open'));
+  // close mobile menu after anchor click
+  navLinks && navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+  const dd = document.getElementById('progDropdown');
+  if (dd) {
+    const btn = dd.querySelector('button');
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      dd.classList.toggle('open');
+      btn.setAttribute('aria-expanded', dd.classList.contains('open'));
+    });
+    dd.querySelectorAll('a').forEach(a => a.addEventListener('click', () => dd.classList.remove('open')));
+    document.addEventListener('click', (e) => {
+      if (!dd.contains(e.target)) { dd.classList.remove('open'); btn.setAttribute('aria-expanded','false'); }
+    });
+  }
+  // Flip team cards on tap (mobile)
+  document.querySelectorAll('.flip').forEach(c => c.addEventListener('click', () => c.classList.toggle('flipped')));
+  // Carousels: 3 sichtbar, alle 3s eins weiter (Loop, Pause bei Hover)
+  document.querySelectorAll('.carousel').forEach(car => {
+    const viewport = car.querySelector('.carousel-viewport');
+    const track = car.querySelector('.carousel-track');
+    const slides = car.querySelectorAll('.carousel-slide');
+    const dotsWrap = car.querySelector('.carousel-dots');
+    const prev = car.querySelector('.prev');
+    const next = car.querySelector('.next');
+    const n = slides.length;
+    const gap = 16;
+    let page = 0, pages = 1, timer = null;
+    function perView(){ return Math.max(1, Math.round(viewport.clientWidth / (slides[0].getBoundingClientRect().width + gap))); }
+    function buildDots(){
+      dotsWrap.innerHTML = '';
+      for (let k = 0; k < pages; k++){ const b = document.createElement('button'); b.addEventListener('click', () => { go(k); restart(); }); dotsWrap.appendChild(b); }
+      const hide = pages <= 1;
+      dotsWrap.style.display = hide ? 'none' : '';
+      prev.style.display = hide ? 'none' : '';
+      next.style.display = hide ? 'none' : '';
+    }
+    function go(p){
+      page = (p + pages) % pages;
+      const step = slides[0].getBoundingClientRect().width + gap;
+      track.style.transform = `translateX(${-step * page}px)`;
+      [...dotsWrap.children].forEach((d, k) => d.classList.toggle('active', k === page));
+    }
+    function restart(){ if (timer) clearInterval(timer); if (pages > 1) timer = setInterval(() => go(page + 1), 3000); }
+    function layout(){ pages = Math.max(1, n - perView() + 1); if (page > pages - 1) page = 0; buildDots(); go(page); restart(); }
+    prev.addEventListener('click', () => { go(page - 1); restart(); });
+    next.addEventListener('click', () => { go(page + 1); restart(); });
+    car.addEventListener('mouseenter', () => { if (timer) clearInterval(timer); });
+    car.addEventListener('mouseleave', restart);
+    window.addEventListener('resize', layout);
+    layout();
+  });
+</script>
+<script>
+document.querySelectorAll('.video-lazy').forEach(function(w){
+  w.querySelector('.video-play-btn').addEventListener('click',function(){
+    var video=w.querySelector('video');
+    w.querySelector('.video-thumb').style.display='none';
+    this.style.display='none';
+    video.style.display='block';
+    video.setAttribute('controls','');
+    video.play();
+  });
+});
+</script>
+</body>
+</html>
