@@ -485,9 +485,9 @@ html{scroll-padding-top:96px}
 .sponsors--hero .sp-logo img{max-height:60px}
 .sponsors--prog .sp-logo{flex-basis:120px;min-height:64px}
 .sponsors--prog .sp-logo span{font-size:13px}
-.sponsors--footer .sp-grid{gap:8px}
-.sponsors--footer .sp-logo{flex-basis:100px;min-height:48px;background:rgba(250,247,240,0.06);border-color:rgba(250,247,240,0.16)}
-.sponsors--footer .sp-logo img{max-height:36px}
+.sponsors--footer .sp-grid{gap:6px}
+.sponsors--footer .sp-logo{flex-basis:62px;min-height:40px;padding:8px 10px;background:rgba(250,247,240,0.06);border-color:rgba(250,247,240,0.16)}
+.sponsors--footer .sp-logo img{max-height:28px}
 .sponsors--footer .sp-logo::before{background-image:repeating-linear-gradient(45deg,transparent 0 16px,rgba(250,247,240,0.05) 16px 17px)}
 .sponsors--footer .sp-logo span{font-size:11px;color:rgba(250,247,240,0.72);font-family:"Inter",sans-serif}
 
