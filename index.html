@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,300..700,30..100,0..1&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="style.css?v=3" />
+<link rel="stylesheet" href="style.css?v=4" />
 </head>
 <body data-screen-label="Startseite">
 
@@ -69,7 +69,7 @@
       <div>
         <h1 class="hero-name">
           <span class="title-line">Potztausendschön <span class="ev">e.V.</span></span>
-          <span class="desc">Verein für Umweltbildung und Kulturförderung in Bremen.</span>
+          <span class="desc">Verein für Umweltbildung und Kulturförderung in Bremen <span class="ev">e.V.</span></span>
         </h1>
       </div>
       <div>
@@ -82,7 +82,7 @@
 <!-- ============ HERO SPONSORS ============ -->
 <section class="sponsors sponsors--hero" style="padding-top:18px">
   <div class="container">
-    <div class="sp-label">Gefördert und unterstützt von</div>
+    <div class="sp-label">Dankeschön:</div>
     <div class="sp-grid">
       <div class="sp-logo"><img src="assets/logos/logo_senator_kultur.png" alt="Der Senator für Kultur, Bremen" /></div>
       <div class="sp-logo"><img src="assets/logos/logo_senatorin_umwelt.jpg" alt="Senatorin für Klimaschutz, Umwelt &amp; Mobilität" /></div>
@@ -582,20 +582,20 @@
       <h2 style="font-size:clamp(28px,3.4vw,44px)"><em>Sven Hegeler</em> — Schauspieler, Clown und Imker.</h2>
     </div>
     <div class="split-2" style="grid-template-columns:.8fr 1.2fr;gap:56px">
-      <div class="carousel" data-id="sven-hegeler" style="border-radius:20px;overflow:hidden">
-        <div class="carousel-track">
-          <div class="carousel-slide"><img class="cphoto" src="assets/bilder_bienentheater/zauberer.jpg" alt="Sven Hegeler – Zauberer" loading="lazy" /></div>
-          <div class="carousel-slide"><img class="cphoto" src="assets/bilder_bienentheater/bienentheater_bremen_2.jpg" alt="Sven Hegeler – Bienentheater Bremen" loading="lazy" /></div>
-          <div class="carousel-slide"><img class="cphoto" src="assets/bilder_bienentheater/bienentheater_bremen_5.jpg" alt="Sven Hegeler – Bienentheater Bremen" loading="lazy" /></div>
-          <div class="carousel-slide"><img class="cphoto" src="assets/bilder_bienentheater/bienentheater_bremen_11.jpg" alt="Sven Hegeler – Bienentheater Bremen" loading="lazy" /></div>
-          <div class="carousel-slide"><img class="cphoto" src="assets/bilder_bienentheater/feuer.jpg" alt="Sven Hegeler – Feuer" loading="lazy" /></div>
-          <div class="carousel-slide"><img class="cphoto" src="assets/bilder_bienentheater/GauklerBall2.jpg" alt="Sven Hegeler – Gaukler" loading="lazy" /></div>
-          <div class="carousel-slide"><img class="cphoto" src="assets/bilder_bienentheater/oette_1985_1.jpg" alt="Sven Hegeler – Oette 1985" loading="lazy" /></div>
-          <div class="carousel-slide"><img class="cphoto" src="assets/bilder_bienentheater/santmarie_dlmer.jpg" alt="Sven Hegeler – Sant Marie de la Mer" loading="lazy" /></div>
+      <div class="filmstrip" id="filmstrip-sven">
+        <div class="filmstrip-main">
+          <img class="filmstrip-main-img cphoto" src="assets/bilder_bienentheater/zauberer.jpg" alt="Sven Hegeler – Zauberer" />
         </div>
-        <button class="carousel-prev" aria-label="Vorheriges Bild">&#8249;</button>
-        <button class="carousel-next" aria-label="Nächstes Bild">&#8250;</button>
-        <div class="carousel-dots"></div>
+        <div class="filmstrip-thumbs">
+          <img class="filmstrip-thumb active" src="assets/bilder_bienentheater/zauberer.jpg" alt="Sven Hegeler – Zauberer" />
+          <img class="filmstrip-thumb" src="assets/bilder_bienentheater/bienentheater_bremen_2.jpg" alt="Sven Hegeler – Bienentheater Bremen" />
+          <img class="filmstrip-thumb" src="assets/bilder_bienentheater/bienentheater_bremen_5.jpg" alt="Sven Hegeler – Bienentheater Bremen" />
+          <img class="filmstrip-thumb" src="assets/bilder_bienentheater/bienentheater_bremen_11.jpg" alt="Sven Hegeler – Bienentheater Bremen" />
+          <img class="filmstrip-thumb" src="assets/bilder_bienentheater/feuer.jpg" alt="Sven Hegeler – Feuer" />
+          <img class="filmstrip-thumb" src="assets/bilder_bienentheater/GauklerBall2.jpg" alt="Sven Hegeler – Gaukler" />
+          <img class="filmstrip-thumb" src="assets/bilder_bienentheater/oette_1985_1.jpg" alt="Sven Hegeler – Oette 1985" />
+          <img class="filmstrip-thumb" src="assets/bilder_bienentheater/santmarie_dlmer.jpg" alt="Sven Hegeler – Sant Marie de la Mer" />
+        </div>
       </div>
       <div class="prose">
         <p>Der Schauspieler, Clown und Artist Sven Hegeler wurde 1961 in São Paulo geboren. Seine Ausbildung absolvierte er an der Artistenschule in Berlin. Er wirkte in verschiedenen Circus- und Varieté-Inszenierungen mit, u.a. Circus Roncalli, Traumtheater Salome, Wintergartenvarieté Berlin.</p>
@@ -649,7 +649,7 @@
 <!-- ============ ALLE SPONSOR:INNEN (ganz unten) ============ -->
 <section class="sponsors" style="padding:72px 0">
   <div class="container">
-    <div class="sp-label">Gefördert und unterstützt von</div>
+    <div class="sp-label">Dankeschön:</div>
     <div class="sp-grid">
       <div class="sp-logo"><img src="assets/logos/logo_senator_kultur.png" alt="Der Senator für Kultur, Bremen" /></div>
       <div class="sp-logo"><img src="assets/logos/logo_senatorin_umwelt.jpg" alt="Senatorin für Klimaschutz, Umwelt &amp; Mobilität" /></div>
@@ -771,6 +771,18 @@
     car.addEventListener('mouseleave', restart);
     window.addEventListener('resize', layout);
     layout();
+  });
+  // Filmstrip: großes Bild + Thumbnail-Leiste
+  document.querySelectorAll('.filmstrip').forEach(function(fs) {
+    var mainImg = fs.querySelector('.filmstrip-main-img');
+    fs.querySelectorAll('.filmstrip-thumb').forEach(function(th) {
+      th.addEventListener('click', function() {
+        mainImg.src = th.src;
+        mainImg.alt = th.alt;
+        fs.querySelectorAll('.filmstrip-thumb').forEach(function(t) { t.classList.remove('active'); });
+        th.classList.add('active');
+      });
+    });
   });
 </script>
 <script>
