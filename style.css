@@ -195,7 +195,6 @@ section{padding:90px 0;position:relative}
 /* ============ PROSE ============ */
 .prose{max-width:680px}
 .prose p{font-size:18px;line-height:1.65;margin-bottom:1.1em}
-.prose p:first-child{font-size:20px}
 .prose strong{color:var(--ink);font-weight:500}
 
 /* ============ FACT BOX ============ */
@@ -410,6 +409,7 @@ html{scroll-padding-top:96px}
 .video-row{display:grid;gap:24px;margin-top:32px}
 .video-row.two{grid-template-columns:1fr 1fr}
 @media (max-width:760px){.video-row.two{grid-template-columns:1fr}}
+.video-note{font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:0.07em;color:var(--ink-mute);margin-top:10px;line-height:1.5}
 .video-ph{
   position:relative;aspect-ratio:16/9;border-radius:20px;overflow:hidden;
   background:var(--ink);border:1px solid var(--line);
